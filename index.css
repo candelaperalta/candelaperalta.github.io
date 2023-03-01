@@ -1,0 +1,237 @@
+/**  Proyecto Final Argentina Programa 4.0 2023 - Candela Peralta */
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Varela Round', sans-serif;
+    
+}
+
+#color-button {
+    background-color: #B7DCCD;
+    color: #2F6D64;
+    border-color:#2F6D64;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    font-family: 'Varela Round', sans-serif;
+    transition: background-color 0.3s;
+    position: fixed;
+    top: 0.5px;
+  }
+
+body {
+background:white;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+
+}
+.pagina{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow:15px 15px 10px rgb(28, 28, 30);
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 50px;
+}
+
+/** IZQUIERDA */
+
+.pagina .pagina_izquierda{
+    position: relative;
+    background: #2F6D64;
+    padding: 40px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 50px;
+}
+
+/** PRESENTACION */
+
+.presentacion  {
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 3px dotted #B7DCCD;
+}
+
+.presentacion h1{
+    text-align: center;
+    letter-spacing: 3px;
+    text-shadow: 3px 3px 3px rgb(28, 28, 30);
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #ECF2F1;
+    font-family: 'Righteous', cursive;
+}
+
+#nombre_profesion{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #ECF2F1;
+}
+
+.presentacion img {
+    border-radius: 100px;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding-bottom: 15px;
+    padding-top: 5px;
+}
+/** INFORMACION DE CONTACTO */
+
+#titulo_contacto {
+    padding-top: 25px;
+    text-align: center;
+    color:  #B7DCCD;
+}
+
+.info_contacto ul {
+    padding-top: 20px;
+    line-height: 2;
+    position: relative;
+}
+
+.info_contacto ul li {
+    position: relative;
+    list-style: none;
+    letter-spacing: 0.2px;
+    color: #ECF2F1; 
+}
+
+.info_contacto ul li .icono {
+    display: inline-block;
+    width: 25px;
+    color:#B7DCCD;
+}
+
+.info_contacto a {
+    text-decoration: none;
+    color: #ECF2F1;
+}
+
+/** IDIOMAS  */
+
+#titulo_idiomas {
+    padding-top: 25px;
+    text-align: center;
+    color:  #B7DCCD;
+}
+.info_idiomas ul {
+    padding-top: 20px;
+    line-height: 2;
+    position: relative;
+    letter-spacing: 0.8px
+}
+.info_idiomas ul li {
+    list-style-type: circle;
+    position: relative;
+    margin-left: 20px;
+    color: #ECF2F1;
+}
+
+/** DERECHA */
+
+.pagina .pagina_derecha{
+    position: relative;
+    background: #F2F6F0;
+    padding: 40px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 15px;
+}
+
+/** LABORAL */
+
+.info_laboral {
+    line-height: 1.8;
+    margin: 20px;
+    
+}
+.info_laboral ul li {
+    list-style-type:none;
+}
+
+#titulo_laboral {
+    text-align: center;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: #B7DCCD;
+    margin-bottom: 10px;
+    color: #2F6D64;
+    border-color:#2F6D64;
+    
+}
+
+/** EDUCACIÓN */
+
+.info_educacion {
+    line-height: 1.8;
+    margin: 20px;
+}
+
+
+.info_educacion ul li {
+    list-style-type:none;
+}
+
+#titulo_educacion {
+    text-align: center;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: #B7DCCD;
+    margin-bottom: 10px;
+    color: #2F6D64;
+    border-color:#2F6D64;
+}
+
+/** HABILIDADES */
+
+.info_habilidades {
+    line-height: 1.5;
+    margin: 20px;
+}
+
+.info_habilidades ul {
+    padding-left: 20px;
+}
+
+.info_habilidades ul li {
+    list-style-type:circle;
+    color: #4A4A4A;
+    padding-left: 10px;
+}
+
+#titulo_habilidades {
+    text-align: center;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: #B7DCCD;
+    margin-bottom: 10px;
+    color: #2F6D64;
+    border-color:#2F6D64;
+}
+
+h5 {
+    font-style: oblique;
+    font-weight: lighter;
+    color: #4A4A4A;
+}
+
+h3 span {
+    font-weight: lighter;
+    color:#F2F6F0;
+    border-style: solid;
+    background-color:#969696;
+  }

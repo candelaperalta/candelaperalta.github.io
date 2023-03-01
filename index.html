@@ -1,0 +1,153 @@
+<!-- Proyecto Final Argentina Programa 4.0 2023 - Candela Peralta -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <link rel="icon" type="image/png" href="D:\DESARROLLO WEB\cropped-favicon-300x300.png">
+    
+    <link rel="stylesheet" type="text/css" href="index.css" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Proyecto Final CV</title>
+</head>
+<body>
+<!-- Botón cambio de color, código JS -->
+   <button onclick="changeColor()" id="color-button">Cambiar el color de fondo</button>
+   <script> 
+   var coloresFondo = ['FFFFFF', '#000000', '#9E48FF', '#F79D2B', '#3446C3', '#B40DB7', '#B7DCCD'];
+   function changeColor() {
+    var color = coloresFondo[Math.floor(Math.random() * coloresFondo.length)];
+    document.body.style.backgroundColor = color;
+}
+</script>
+    <div class="pagina">
+        <!-- IZQUIERDA -->
+        <div class="pagina_izquierda">
+            <!-- PRESENTACION -->
+            <div class="presentacion"> 
+                <h1> Carrie Richardson</h1>
+                <span class="fotoperfil">
+                    <img src="63.jpg" alt="Foto de perfil de Carrie Richardson">
+            </span>
+                 <h2 id="nombre_profesion"> Developer</h2>
+            </div>
+            <!--INFORMACION DE CONTACTO  -->
+            <div class="info_contacto">
+                <h2 id="titulo_contacto">INFORMACIÓN DE CONTACTO</h2>
+                <ul>
+                    <li>
+                        <span class="icono"><i class="fa-solid fa-envelope"></i></span>
+                        <span class="texto">carrie.richardson@example.com</span>
+                    </li>
+                    <li>
+                        <span class="icono"><i class="fa-solid fa-phone"></i></span>
+                        <span class="texto">(520) 597-2065</span>
+                    </li> 
+                    <li>
+                        <span class="icono"><i class="fa-solid fa-location-dot"></i></span>
+                        <span class="texto">Address 2404 First Street</span>
+                    </li> 
+                    <li>
+                        <span class="icono"><i class="fa-brands fa-linkedin"></i></i></span>
+                        <span class="texto"><a href="https://ar.linkedin.com/">ar.linkedin.com/in/crichardson</a></span>
+                        
+                    </li>   
+                </ul>
+            </div>
+            <!--INFORMACION IDIOMAS  -->
+            <div class="info_idiomas">
+                <h2 id="titulo_idiomas"> IDIOMAS </h2>
+                <ul>
+                    <li>Inglés (Avanzado)</li>
+                    <li>Francés (Intermedio)</li> 
+                    <li>Italiano (Básico)</li>        
+                </ul>
+            </div>
+        </div>
+
+        <!--DERECHA -->
+
+        <div class="pagina_derecha">
+
+            <!-- EXPERIENCIA LABORAL-->
+
+            <div class="info_laboral"> 
+                <h2 id="titulo_laboral"> EXPERIENCIA LABORAL </h2>
+                <ul>
+                    <li> 
+                        <h3><span>2020–Actualidad</span></h3>
+                        <h4> PUESTO N°3</h4>
+                        <h4> EMPRESA N°3</h4>
+                        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+                    </li>
+                    <li> 
+                        <h3><span>2016-2020</span></h3>
+                        <h4> PUESTO N°2</h4>
+                        <h4> EMPRESA N°2</h4>
+                        <h5>Id faucibus nisl tincidunt eget nullam non nisi est sit.</h5>
+                    </li>
+                    <li> 
+                        <h3><span>2014-2016</span> </h3>
+                        <h4> PUESTO N°1</h4>
+                        <h4> EMPRESA N°1</h5>
+                        <h5>Mi tempus imperdiet nulla malesuada pellentesque elit eget gravida.</h5>
+                    </li>
+                </ul>
+
+            </div>
+
+            <!--EDUCACIÓN -->
+
+            <div class="info_educacion"> 
+                <h2 id="titulo_educacion"> EDUCACIÓN</h2>
+                <ul>
+                    <li> 
+                        <h3><span>2014-2016</span></h3>
+                        <h4>MÁSTER UNIVERSITARIO</h4>
+                        <h4>Universidad XX3</h4>
+                        <h5>Eget nunc lobortis mattis aliquam faucibus.</h5>
+                    </li>
+                    <li>
+                        <h3><span>2014-2010</span></h3>
+                        <h4>TÍTULO DE GRADO</h4>
+                        <h4>Universidad XX2</h4>
+                        <h5>Nibh venenatis cras sed felis eget velit.</h5>
+                    </li>
+                    <li>
+                        <h3><span>2006-2010</span></h3>
+                        <h4>ESTUDIOS SECUNDARIOS</h4>
+                        <h4>Escuela XX1</h4>
+                        <h5>Quis enim lobortis scelerisque fermentum dui faucibus in.</h5>
+                    </li>
+                </ul>
+            </div> 
+
+            <!--HABILIDADES -->
+
+            <div class="info_habilidades"> 
+                <h2 id="titulo_habilidades"> HABILIDADES</h2>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                    <li>Sed ut felis viverra, semper justo eu, fermentum libero.</li>
+                    <li>Nam non tellus blandit, semper ex in, interdum purus.</li>
+                    <li>Aliquam accumsan nisi nec turpis feugiat lacinia.</li>
+                </ul>
+            </div>
+        </div>
+
+    </div> 
+</body>
+</html>
